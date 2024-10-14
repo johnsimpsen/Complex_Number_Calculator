@@ -185,7 +185,6 @@ Number* Number::operator/(Number& rhs) {
 
     //Complex / Complex
     if (a && b) {
-        //poggers!
         int A = a->getRealNumber();
         int B = a->getImaginaryNumber();
         int C = b->getRealNumber();
